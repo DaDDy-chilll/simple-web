@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&display=swap");
+body {
+  box-sizing: border-box;
+  background-color: #bfbebd;
+}
+.navbg_cs {
+  background-color: #2a3340;
+}
+.logo-brand {
+  color: #bfbebd;
+  font-size: 25px;
+  font-family: "Michroma", sans-serif;
+}
+.menu-list {
+  color: #e5b3f2;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: capitalize;
+}
+
+.lisa_cs {
+  height: 95%;
+}
+.sentent_cs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title_cs {
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: "Alfa Slab One", cursive;
+  background: url(../../resrc/galaxy_sky.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  /* background-size: cover; */
+  animation: titileAnima 30s linear infinite;
+}
+
+@keyframes titileAnima {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -1000%;
+  }
+  /* 100% {
+    background-position: ;
+  } */
+}
+.title_text {
+  color: #2a3340;
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.starry_cs {
+  height: 100vh;
+  color: whitesmoke;
+  background-color: white;
+  background-image: url(../../resrc/skynight.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.backdrop_cs {
+  backdrop-filter: blur(10px);
+}
+.starry1st_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.starry_info {
+  width: 80%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.19);
+  padding: 10px;
+  border-radius: 5px;
+}
+.starry_info > h1 {
+  color: #2a3340;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+.starry_info > p {
+  color: black;
+  font-weight: bold;
+  font-family: "Inconsolata", monospace;
+}
+
+@media screen and (max-width: 768px) {
+  .starry_info {
+    height: 70%;
+  }
+}
