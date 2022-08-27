@@ -106,3 +106,12 @@ body {
     height: 70%;
   }
 }
+.starry2nd_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.starry_img{
+  width: 60%;
+  height: 42%;
+}
