@@ -6,22 +6,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&display=swap");
 body {
   box-sizing: border-box;
-  background-color: #bfbebd;
+  background-color: white;
 }
 .navbg_cs {
-  background-color: #2a3340;
+  background-color: rgb(128, 125, 125);
+  height: 56px;
 }
 .logo-brand {
-  color: #bfbebd;
+  color: #ffffff;
   font-size: 25px;
   font-family: "Michroma", sans-serif;
+  letter-spacing: 2px;
 }
 .menu-list {
-  color: #e5b3f2;
-  font-weight: lighter;
+  color: #ffffff;
+  font-weight: 100;
   font-size: 25px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .lisa_cs {
@@ -114,4 +117,50 @@ body {
 .starry_img{
   width: 60%;
   height: 42%;
+}
+.posiden_statu{
+  margin: 0;
+  padding: 0;
+}
+.posidenStatu_cs{
+  margin: 5px 0;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statu_cs{
+  width: 55%;
+  height: auto;
+  /* box-shadow: 0 20px 5px black; */
+}
+.posiden_img{
+  filter: drop-shadow(0 50px 5px black);
+}
+.statu4_cs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statu_pos{
+  width: 329px;
+  height: 225px;
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statu_pos > h1{
+  padding: 0;
+  margin: 0;
+}
+.statu_img{
+  width: 40%;
+  height: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
